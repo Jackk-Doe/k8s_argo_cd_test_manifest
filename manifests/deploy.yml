@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: jackkdoe/k8s_argo_cd_test_app:v1.0.0
+        image: jackkdoe/go-app:5ec1b33ce93e3d0156ffafa748f9ee1b826531ee
         ports:
         - containerPort: 3000
         resources:
